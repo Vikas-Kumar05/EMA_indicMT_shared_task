@@ -191,30 +191,9 @@ outputs/
 checkpoints/pipeline_X/{r1,st1,st2,st3}/   # adapters
 ```
 
-**Metrics:** BLEU (sacrebleu, 13a), chrF, chrF++, TER, COMET (`Unbabel/wmt22-comet-da`). Step 6 adds paired bootstrap significance tests (n = 1000) of the final system against baseline and R1.
+**Metrics:** BLEU (sacrebleu, 13a), chrF, chrF++, TER, COMET (`Unbabel/wmt22-comet-da`). Step 6 adds paired bootstrap significance tests of the final system against baseline and R1.
 
----
 
-## Results
-
-> Fill in after running `step6_compare.py`.
-
-| Pipeline | System | BLEU | chrF | chrF++ | COMET |
-|----------|--------|-----:|-----:|-------:|------:|
-| E (asm→bodo) | Baseline | | | | |
-| | R1 | | | | |
-| | st1 / st2 / st3 | | | | |
-| F (bodo→asm) | Baseline | | | | |
-| | R1 | | | | |
-| | st1 / st2 / st3 | | | | |
-| G (ben→odia) | Baseline | | | | |
-| | R1 | | | | |
-| | st1 / st2 / st3 | | | | |
-| H (odia→ben) | Baseline | | | | |
-| | R1 | | | | |
-| | st1 / st2 / st3 | | | | |
-
----
 
 ## Known limitations
 
